@@ -57,6 +57,6 @@ mark {
 }
 
 q {
-  font-family: var(--font-secondary);
+  font-family: var(--font-primary);
   font-style: italic;
 }
