@@ -41,8 +41,7 @@ h6 {
   color: var(--color-primary);
 }
 
-
-p {
-  font-family: var(--font-primary);
+a {
+  font-family: var(--font-secondary);
   color: var(--color-secondary);
 }
