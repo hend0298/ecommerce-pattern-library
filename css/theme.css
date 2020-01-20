@@ -37,4 +37,5 @@ a {
 ul, ol, li, dl, dt, dd {
   font-family: var(--font-primary);
   color: var(--color-secondary);
+  text-decoration: none;
 }
