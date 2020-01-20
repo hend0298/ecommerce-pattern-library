@@ -38,3 +38,9 @@ ul, ol, li, dl, dt, dd {
   font-family: var(--font-primary);
   color: var(--color-secondary);
 }
+
+blockquote, cite {
+  font-family: var(--font-secondary);
+  color: var(--color-secondary);
+  font-weight: normal;
+}
