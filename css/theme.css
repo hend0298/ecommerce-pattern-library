@@ -39,7 +39,7 @@ ul, ol, li, dl, dt, dd {
   color: var(--color-secondary);
 }
 
-blockquote, q {
+blockquote {
   font-family: var(--font-secondary);
   color: var(--color-secondary);
   font-weight: normal;
