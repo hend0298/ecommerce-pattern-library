@@ -34,7 +34,7 @@ a {
   font-weight: regular;
 }
 
-ul, li {
+ul, ol, li, dl, dt, dd {
   font-family: var(--font-primary);
   color: var(--color-secondary);
 }
