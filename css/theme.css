@@ -4,7 +4,7 @@
 
   --font-primary: "Ibarra Real Nova", serif;
   --font-secondary: Montserrat, sans-serif;
-  --font-secondary-reg: Montserrat, 400, sans-serif;
+  --font-secondary-reg: Montserrat, sans-serif, regular;
 }
 
 html {
@@ -12,12 +12,12 @@ html {
 }
 
 h1 {
-  font-family: var(--font-secondary-reg);
+  font-family: var(--font-secondary);
   color: var(--color-primary);
 }
 
 h2 {
-  font-family: var(--font-secondary);
+  font-family: var(--font-secondary-reg);
   color: var(--color-primary);
 }
 
