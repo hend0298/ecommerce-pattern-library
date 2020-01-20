@@ -1,0 +1,11 @@
+:root {
+  --color-primary: #D9A296;
+  --color-secondary: #383838;
+
+  --font-primary: "Ibarra Real Nova", serif;
+  --font-secondary: Montserrat, sans-serif;
+}
+
+html {
+  font-family: var(--font-primary);
+}
