@@ -50,3 +50,7 @@ cite {
   color: var(--color-primary);
   font-weight: normal;
 }
+
+mark {
+  color: var(--color-primary);
+}
