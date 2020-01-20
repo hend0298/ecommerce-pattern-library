@@ -1,5 +1,6 @@
 :root {
   --color-primary: #D9A296;
+  --color-primary-light: #E3C6BF;
   --color-secondary: #383838;
 
   --font-primary: "Ibarra Real Nova", serif;
@@ -52,5 +53,5 @@ cite {
 }
 
 mark {
-  background-color: var(--color-primary);
+  background-color: var(--color-primary-light);
 }
