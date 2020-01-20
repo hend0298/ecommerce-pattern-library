@@ -55,3 +55,8 @@ cite {
 mark {
   background-color: var(--color-primary-light);
 }
+
+q {
+  font-family: var(--font-secondary);
+  font-weight: italic;
+}
