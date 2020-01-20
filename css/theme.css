@@ -15,7 +15,7 @@ h1 {
   color: var(--color-primary);
 }
 
-h2 {
+h2, h4, h5, h6 {
   font-family: var(--font-secondary);
   color: var(--color-secondary);
   font-weight: normal;
@@ -27,23 +27,9 @@ h3 {
   font-weight: normal;
 }
 
-h4 {
-  font-family: var(--font-secondary);
-  color: var(--color-primary);
-}
-
-h5 {
-  font-family: var(--font-secondary);
-  color: var(--color-primary);
-}
-
-h6 {
-  font-family: var(--font-secondary);
-  color: var(--color-primary);
-}
-
 a {
   font-family: var(--font-secondary);
   color: var(--color-secondary);
   text-decoration: none;
+  font-weight: none;
 }
