@@ -58,5 +58,5 @@ mark {
 
 q {
   font-family: var(--font-secondary);
-  font-weight: italic;
+  font-style: italic;
 }
