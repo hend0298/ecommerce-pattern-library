@@ -4,9 +4,8 @@ patternbot:
   title: "Pen and Paper"
   description: |
     A Canadian stationery company who is passionate about design. From calendars to notebooks to desk decor, we have it all!
-  font_url: "href="https://fonts.googleapis.com/css?family=Ibarra+Real+Nova:400,400i,700|Montserrat:400,500,700&display=swap"
+  font_url: "https://fonts.googleapis.com/css?family=Ibarra+Real+Nova:400,400i,700|Montserrat:400,500,700&display=swap"
   colors:
-    background: "--color-primary-light"
     accent: "--color-secondary"
     patterns:
       brand.logos: "--color-primary-light"
