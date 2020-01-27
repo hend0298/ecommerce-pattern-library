@@ -7,8 +7,6 @@ patternbot:
   font_url: "https://fonts.googleapis.com/css?family=Ibarra+Real+Nova:400,400i,700|Montserrat:400,500,700&display=swap"
   colors:
     accent: "--color-secondary"
-    patterns:
-      brand.logos: "--color-primary-light"
   rationales:
     typefaces.primary: |
       Ibarra Real Nova was selected because it is a simple, serif font that's easy to read. It is to be mainly used for body copy.
