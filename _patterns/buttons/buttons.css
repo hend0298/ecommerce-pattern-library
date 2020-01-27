@@ -2,6 +2,7 @@
   background-color: var(--color-primary-light);
   border-color: var(--color-primary-light);
   border-radius: 20px;
+  font-family: var(--font-secondary);
 
   color: #fff;
 }
