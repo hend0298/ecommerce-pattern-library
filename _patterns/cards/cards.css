@@ -5,4 +5,5 @@
 
 .product-card h3 {
   border-bottom: 2px, solid;
+  border-color: var(--color-primary);
 }
