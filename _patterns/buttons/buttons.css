@@ -8,6 +8,7 @@
 .btn:hover {
   background-color: var(--color-primary);
   border-color: var(--color-primary);
+  color: var(--color-secondary);
 }
 
 .btn-ghost {
@@ -28,4 +29,5 @@
 
 .btn-light:hover {
   border-color: var(--color-primary);
+  color: var(--color-secondary);
 }
