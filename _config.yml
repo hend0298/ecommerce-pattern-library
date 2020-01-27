@@ -3,6 +3,10 @@ theme: jekyll_patternbot
 patternbot:
   title: "Pen & Paper"
   description: |
-  A Canadian stationery company who's passionate about design. From calendars to notebooks to desk decor, we have it all!
+  A Canadian stationery company who is passionate about design. From calendars to notebooks to desk decor, we have it all!
   font_url: "href="https://fonts.googleapis.com/css?family=Ibarra+Real+Nova:400,400i,700|Montserrat:400,500,700&display=swap"
   rationales:
+    typefaces.primary: |
+    Ibarra Real Nova was selected because it is a simple, serif font that's easy to read. It is to be mainly used for body copy.
+    typefaces.secondary: |
+    Montserrat was selected because it's a classy, sans-serif font who thinner weight contrasts well with the primary font. It is to be used for headings, buttons, banners, etc.
