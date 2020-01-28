@@ -14,3 +14,12 @@
 .category-card {
   border-radius: 20px;
 }
+
+.category-card img {
+  position: absolute;
+}
+
+.category-card h2 {
+  position: relative;
+  top: 10px;
+}
