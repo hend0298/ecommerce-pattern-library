@@ -10,3 +10,7 @@
 .product-card p {
   font-family: var(--font-secondary);
 }
+
+.category-card {
+  border-radius: 20px;
+}
