@@ -4,6 +4,6 @@
 }
 
 .border {
-  border: 2px, solid, red;
+  border-bottom: 2px solid rgba(226, 168, 132, .5);
   border-color: var(--color-primary);
 }
