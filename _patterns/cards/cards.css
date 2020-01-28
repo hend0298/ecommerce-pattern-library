@@ -11,12 +11,9 @@
   font-family: var(--font-secondary);
 }
 
-.category-card {
-  border-radius: 20px;
-}
-
 .category-card img {
   position: absolute;
+  border-radius: 20px;
 }
 
 .category-card h2 {
