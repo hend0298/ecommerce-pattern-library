@@ -3,7 +3,7 @@
 
 }
 
-.product-card h3 {
-  border-bottom: 2px, var(--color-primary), solid;
+.border {
+  border-bottom: 2px, solid;
   border-color: var(--color-primary);
 }
