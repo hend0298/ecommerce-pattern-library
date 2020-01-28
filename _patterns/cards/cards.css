@@ -4,6 +4,7 @@
 }
 
 .border {
-  border-bottom: 2px solid rgba(226, 168, 132, .5);
+  border-bottom: 2px solid;
   border-color: var(--color-primary);
+  border-width: 10px;
 }
