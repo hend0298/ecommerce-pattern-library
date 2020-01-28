@@ -4,6 +4,6 @@
 }
 
 .border {
-  border: 2px, solid;
+  border: 2px, solid, red;
   border-color: var(--color-primary);
 }
