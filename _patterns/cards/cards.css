@@ -1,5 +1,6 @@
 .product-card {
   text-align: center;
+  border-radius: 50px;
 }
 
 .border {
@@ -9,7 +10,6 @@
 
 .product-card p {
   font-family: var(--font-secondary);
-  border-radius: 50px;
 }
 
 .category-card img {
