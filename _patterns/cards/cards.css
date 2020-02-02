@@ -9,17 +9,17 @@
 
 .product-card p {
   font-family: var(--font-secondary);
+  border-radius: 50px;
 }
 
 .category-card img {
   position: absolute;
   border-radius: 50px;
   max-width: 50em;
-  background-color: var(--color-primary);
-
 }
 
 .category-card h2 {
   position: relative;
-  top: 100px;
+  top: 70em;
+  left: 50em;
 }
