@@ -14,7 +14,7 @@
 .category-card img {
   position: absolute;
   border-radius: 50px;
-  max-width: 50px;
+  max-width: 50em;
 }
 
 .category-card h2 {
