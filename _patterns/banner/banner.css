@@ -9,5 +9,6 @@
 
 .banner {
   position: absolute;
-  padding: .5em;
+  top: 5em;
+  left: 10em;
 }
