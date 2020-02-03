@@ -12,14 +12,19 @@
   font-family: var(--font-secondary);
 }
 
+.category-card {
+  background-color: var(--color-primary);
+  position: relative;
+}
+
 .category-card img {
-  position: absolute;
   border-radius: 50px;
   max-width: 50em;
+  opacity: .5;
 }
 
 .category-card h2 {
-  position: relative;
+  position: absolute;
   top: 15em;
   left: 11em;
 }
