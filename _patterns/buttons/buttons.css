@@ -22,3 +22,8 @@
 .btn-ghost:hover {
   border-color: var(--color-primary);
 }
+
+.twitter {
+  background-color: none;
+  border: none;
+}
