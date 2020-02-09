@@ -2,13 +2,3 @@
   color: var(--color-secondary);
   font-weight: normal;
 }
-
-.banner-content {
-  position: relative;
-}
-
-.banner {
-  position: absolute;
-  top: 15em;
-  left: 30em;
-}

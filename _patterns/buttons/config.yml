@@ -1,3 +1,27 @@
 title: "Buttons"
 description: |
-Buttons should be used in situations where a dramatic, obvious action is required. Try not to over use buttons because they should be the primary call-to-action for a screen.
+  Buttons should be used in situations where a dramatic, obvious action is required. Try not to over use buttons because they should be the primary call-to-action for a screen.
+
+patterns:
+  basic:
+    title: "Basic"
+    description: |
+      Default to using the basic button. It should always be used in front of light backgrounds.
+    width: "12em"
+  ghost:
+    title: "Ghost"
+    description: |
+      The ghost button is specifically for banners, where it will be placed in front of busy images.
+    background: "--color-primary-light"
+  twitter:
+    title: "Twitter"
+    description: |
+      The Twitter button is used to link the organization's Twitter account. It will be placed in the footer of every page.
+  facebook:
+    title: "Facebook"
+    description: |
+      The Facebook button is used to link the organization's Facebook account. It will be placed in the footer of every page.
+  instagram:
+    title: "Instagram"
+    description: |
+      The Instagram button is used to link the organization's Instagram account. It will be placed in the footer of every page.

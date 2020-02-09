@@ -1,0 +1,13 @@
+title: "Cards"
+description: |
+  Cards should be used as links to other pages on the site.
+
+patterns:
+  product:
+    title: "Product"
+    description: |
+      The product card is used to show each product available on the product page. It will include the item's name, price and a button to that product's page.
+  category:
+    title: "Category"
+    description: |
+      The category card will be used to show the different product categories. They will be used as links to each product category page.

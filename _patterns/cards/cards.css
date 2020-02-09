@@ -15,16 +15,27 @@
 .category-card {
   background-color: var(--color-primary);
   position: relative;
+  border-radius: 50px;
 }
 
 .category-card img {
   border-radius: 50px;
-  max-width: 50em;
   opacity: .5;
+}
+
+.category-card img:hover {
+  border-radius: 50px;
+  opacity: 0;
 }
 
 .category-card h2 {
   position: absolute;
-  top: 15em;
-  left: 11em;
+}
+
+.category-card:hover h2 {
+  color: #fff;
+}
+
+a:hover {
+  color: #fff;
 }
