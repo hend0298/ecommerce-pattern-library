@@ -1,0 +1,9 @@
+title: "Navigations"
+description: |
+  Banners should be used at the top of a website page to add imagery to the site. They can also be used as a call to action to get the users to purchase the products sold.
+
+patterns:
+  call-to-action-banner:
+    title: "Call to action"
+    description: |
+      Default to using the basic button. It should always be used in front of light backgrounds.
