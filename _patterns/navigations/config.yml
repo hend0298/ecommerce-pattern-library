@@ -1,9 +1,17 @@
 title: "Navigations"
 description: |
-  Banners should be used at the top of a website page to add imagery to the site. They can also be used as a call to action to get the users to purchase the products sold.
+  Navigations should be used as main links to other pages on the site and to tell the user what page they are currently on. It will be found at the top of every page for easy access.
 
 patterns:
-  call-to-action-banner:
-    title: "Call to action"
+  purchase-nav:
+    title: "Purchase Nav"
     description: |
-      Default to using the basic button. It should always be used in front of light backgrounds.
+      The purchase nav bar will be used during the payment process to inform the user what step they are at in the process. It will also highlight the current page.
+  previous-page:
+    title: "Previous Page"
+    description: |
+      The previous page button will be used during the payment process to allow the user to go to the previous step.
+  next-page:
+    title: "Next Page"
+    description: |
+      The next page button will be used during the payment process to allow the user to go to the next step.

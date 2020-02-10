@@ -1,0 +1,26 @@
+title: "Forms"
+description: |
+  Forms should be used for the user to purchase products on the website.
+
+patterns:
+  radio:
+    title: "Radio"
+    description: |
+      Radio buttons are to be used during the payment process to allow the user to choose between fixed options such as their preferred shipping method.
+  form-field:
+    title: "Form Field"
+    description: |
+      Form fields are to be used for users to fill out their personal information during the payment process.
+  checkbox:
+    title: "Checkbox"
+    padding: 1em 0 0 0
+    description: |
+      Checkboxes are to be used for the user to agree to a specific term such as saving their preferences for next time.
+  drop-down:
+    title: "Drop Down"
+    description: |
+      Drop down menus are to allow the user to choose between different options such as colours of a product.
+  quantity:
+    title: "Quantity"
+    description: |
+      The quantity field is found on the product page for users to easily be able to purchase more than one of a product.

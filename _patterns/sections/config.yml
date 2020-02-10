@@ -1,0 +1,18 @@
+title: "Sections"
+description: |
+  Forms should be used for the user to purchase products on the website.
+
+patterns:
+    product-details:
+      title: "Product Details"
+      description: |
+        The product details list is to be used on the product page to display all the details and features of each product.
+      padding: 0 2em
+    text-section:
+      title: "Text Section"
+      description: |
+        The text section is used on the home page to place a chunk of text. It may sometimes be paired with a button that links to another page.
+    product-info:
+      title: "Product Info"
+      description: |
+        The product info section is used on the product's page to show the name, price and description of the item.
