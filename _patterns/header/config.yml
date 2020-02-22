@@ -1,0 +1,9 @@
+title: "Header"
+description: |
+  The header is a primary element that is found at the top of every page of the website. It allows users to access the navigation.
+
+patterns:
+  header:
+    title: "Header"
+    description: |
+      The header is found at the top of every webpage and helps the users access the navigation to go to different pages of the site.

@@ -1,0 +1,7 @@
+i, a:hover {
+  color: var(--color-primary);
+}
+
+a, i:hover {
+  color: var(--color-secondary);
+}

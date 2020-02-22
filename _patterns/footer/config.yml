@@ -1,0 +1,8 @@
+title: "Footer"
+description: |
+  The footer is a primary element that is found at the bottom of every page of the website. It allows users to access secondary links and social media buttons.
+patterns:
+  footer:
+    title: "Footer"
+    description: |
+      The footer is found at the bottom of every webpage and helps the users access secondary page links. It also contains all the social media buttons.
