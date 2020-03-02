@@ -4,6 +4,22 @@ description: |
 
 patterns:
   call-to-action-banner:
+    fields:
+    - name: heading
+      type: string
+      example: "Brilliant, stunning, bright"
+    - name: text
+      type: string
+      example: "Geological marvels"
+    - name: button_text
+      type: string
+      example: "See collection"
+      required: false
+    - name: button_url
+      type: url
+      example: "/products/"
+      required: false
+
     title: "Call to action"
     description: |
       Default to using the basic button. It should always be used in front of light backgrounds.

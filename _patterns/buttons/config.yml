@@ -9,6 +9,13 @@ patterns:
       Default to using the basic button. It should always be used in front of light backgrounds.
     width: "12em"
   ghost:
+    fields:
+      - name: text
+        type: string
+        example: "See collection"
+      - name: url
+        type: url
+        example: "/products/"
     title: "Ghost"
     description: |
       The ghost button is specifically for banners, where it will be placed in front of busy images.

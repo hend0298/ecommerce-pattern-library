@@ -1,6 +1,10 @@
 permalink: pretty
 theme: jekyll_patternbot
 patternbot:
+
+  layouts:
+    default: |
+      The default layout should be used for every page, it includes the website's primary header and footer.
   title: "Pen and Paper"
   description: |
     A Canadian stationery company who is passionate about design. From calendars to notebooks to desk decor, we have it all!
