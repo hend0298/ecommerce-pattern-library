@@ -5,3 +5,8 @@ i, a:hover {
 a, i:hover {
   color: var(--color-secondary);
 }
+
+
+.logo {
+  width: 50%;
+}

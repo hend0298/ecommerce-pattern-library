@@ -25,3 +25,15 @@ patterns:
     title: "Instagram"
     description: |
       The Instagram button is used to link the organization's Instagram account. It will be placed in the footer of every page.
+  profile:
+    title: "Profile"
+    description: |
+      The profile button is used to bring the user to their profile when they are logged in so they can adjust their account setttings. If they aren't logged in, it will bring them to sign up/login page. It will be placed in the main navigation.
+  search:
+    title: "Search"
+    description: |
+      When pressed, a search bar will show up to allow the user to search the website for any keywords. It will be placed in the main navigation.
+  cart:
+    title: "Cart"
+    description: |
+      The cart button is used to bring the user to their cart so they can see what they are about to purchase. It will be placed in the main navigation.

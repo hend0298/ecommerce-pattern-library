@@ -7,10 +7,19 @@
   color: #fff;
 }
 
-.btn:hover {
-  background-color: var(--color-primary);
-  border-color: var(--color-primary);
+.btn-nav {
+  background-color: none;
+  border: none;
+}
+
+.btn-nav:hover {
   color: var(--color-secondary);
+}
+
+.btn:hover {
+  background-color: var(--color-secondary);
+  border-color: var(--color-secondary);
+  color: white;
 }
 
 .btn-ghost {
@@ -26,8 +35,15 @@
 }
 
 .socials {
-  background-color: none;
-  border: none;
+  background-color: var(--color-primary-light);
+  border-radius: 40%;
   height: 50px;
   width: 50px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socials:hover {
+  background-color: var(--color-secondary);
 }
