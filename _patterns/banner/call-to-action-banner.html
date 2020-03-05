@@ -1,10 +1,10 @@
 <div class="banner-content">
   <div class="embed embed-16by9 push">
-    <img src="/images/{{include.image}}" class="embed-item" alt="Banner photo with heading and button">
+    <img src="/images/banner-photo.jpg" class="embed-item" alt="Banner photo with heading and button">
   </div>
   <div class="banner pin-c">
     <h1 class="text-center push-1-2">{{include.heading}}</h1>
-    <p class="banner-info exa italic max-length-no-center">{{include.text}}</p>
+    <p class="banner-info exa italic max-length-no-center text-center">{{include.text}}</p>
     <div class="center-content push">
       {% if include.button_url %}
         {% pattern buttons/ghost url=include.button_url text=include.button_text %}

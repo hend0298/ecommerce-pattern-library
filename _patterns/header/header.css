@@ -1,12 +1,7 @@
-i, a:hover {
+i:hover, a:hover {
   color: var(--color-primary);
 }
 
-a, i:hover {
+a, i {
   color: var(--color-secondary);
-}
-
-
-.logo {
-  width: 50%;
 }
