@@ -3,10 +3,16 @@ description: |
   Cards should be used as links to other pages on the site.
 
 patterns:
-  product:
+  product-card:
     title: "Product"
     description: |
       The product card is used to show each product available on the product page. It will include the item's name, price and a button to that product's page.
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.products[0]"
+          type: Product
   category:
     title: "Category"
     description: |

@@ -5,20 +5,20 @@ description: |
 patterns:
   call-to-action-banner:
     fields:
-    - name: heading
-      type: string
-      example: "Stylish and affordable"
-    - name: heading
-      type: string
-      example: "Everything you need to stay organized"
-    - name: button_text
-      type: string
-      example: "Shop now"
-      required: false
-    - name: button_url
-      type: url
-      example: "/products/"
-      required: false
+      - name: heading
+        type: string
+        example: "Stylish and affordable"
+      - name: text
+        type: string
+        example: "Everything you need to stay organized"
+      - name: button_text
+        type: string
+        example: "Shop now"
+        required: false
+      - name: button_url
+        type: url
+        example: "/products/"
+        required: false
 
     title: "Call to action"
     description: |
