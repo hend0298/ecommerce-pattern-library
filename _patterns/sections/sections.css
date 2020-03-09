@@ -22,9 +22,25 @@ table {
   font-family: var(--font-secondary);
 }
 
-th
-{
+th {
   color: var(--color-primary);
   font-weight: normal;
+}
+
+td {
+  color: var(--color-secondary);
+  font-weight: normal;
+}
+
+td, th {
   border: none;
+  vertical-align: middle;
+}
+
+.border {
+  border-bottom: solid 1px var(--color-primary);
+}
+
+img {
+  border-radius: 25px;
 }
