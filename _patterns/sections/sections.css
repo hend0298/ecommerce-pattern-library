@@ -19,9 +19,9 @@ h2 {
 }
 
 .product-photo {
-  width: 50%;
+
 }
 
-tr {
-  font-family: var(--font-primary);
+table {
+  font-family: var(--font-secondary);
 }
