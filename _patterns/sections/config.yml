@@ -16,3 +16,7 @@ patterns:
       title: "Product Info"
       description: |
         The product info section is used on the product's page to show the name, price and description of the item.
+    cart:
+      title: "Cart"
+      description: |
+        The cart section is used on the product's page to show the name, photo and price of the items that the user currently has in their cart. It also allows them to remove any items from their cart with the remove button.

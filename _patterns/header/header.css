@@ -5,3 +5,7 @@ i:hover, a:hover {
 a, i {
   color: var(--color-secondary);
 }
+
+.current a {
+  color: var(--color-primary);
+}
