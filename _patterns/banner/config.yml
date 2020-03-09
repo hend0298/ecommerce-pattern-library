@@ -8,6 +8,9 @@ patterns:
     - name: heading
       type: string
       example: "Stylish and affordable"
+    - name: heading
+      type: string
+      example: "Everything you need to stay organized"
     - name: button_text
       type: string
       example: "Shop now"
