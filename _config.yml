@@ -20,3 +20,13 @@ patternbot:
       The primary colours are dusty roses which give the website a chic, mature look. They should be used for most headings and as a highlight colour.
     colors.secondary: |
       The secondary colour is a charcoal grey that adds contrast to the site and should be used for body copy and certain headings.
+
+      collections:
+        products:
+          output: true
+
+      defaults:
+        - scope:
+          path: _products
+        values:
+          layout: product
