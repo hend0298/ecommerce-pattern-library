@@ -25,4 +25,6 @@ table {
 th
 {
   color: var(--color-primary);
+  font-weight: normal;
+  border: none;
 }
