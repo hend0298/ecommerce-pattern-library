@@ -7,13 +7,10 @@ patterns:
     fields:
     - name: heading
       type: string
-      example: "Brilliant, stunning, bright"
-    - name: text
-      type: string
-      example: "Geological marvels"
+      example: "Stylish and affordable"
     - name: button_text
       type: string
-      example: "See collection"
+      example: "Shop now"
       required: false
     - name: button_url
       type: url

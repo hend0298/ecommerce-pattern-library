@@ -21,12 +21,12 @@ patternbot:
     colors.secondary: |
       The secondary colour is a charcoal grey that adds contrast to the site and should be used for body copy and certain headings.
 
-      collections:
-        products:
-          output: true
+collections:
+  products:
+    output: true
 
-      defaults:
-        - scope:
-          path: _products
-        values:
-          layout: product
+defaults:
+  - scope:
+      path: _products
+    values:
+      layout: products
