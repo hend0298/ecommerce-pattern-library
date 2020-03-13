@@ -19,6 +19,9 @@ patterns:
         type: url
         example: "/products/"
         required: false
+      - name: image
+        type: string
+        example: "banner-photo.jpg"
 
     title: "Call to action"
     description: |

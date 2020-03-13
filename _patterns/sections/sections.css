@@ -9,6 +9,10 @@ h3 {
   color: var(--color-secondary);
 }
 
+.text {
+  font-family: var(--font-primary);
+}
+
 .border-not-bold {
   color: var(--color-primary);
   border-bottom: 2px solid var(--color-primary);
