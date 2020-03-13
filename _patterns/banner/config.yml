@@ -21,7 +21,7 @@ patterns:
         required: false
       - name: image
         type: string
-        example: "banner-photo.jpg"
+        example: "sectional-banner-photo.jpg"
 
     title: "Call to action"
     description: |
