@@ -5,6 +5,10 @@
   border-bottom: 2px solid var(--color-primary);
 }
 
+.image {
+  border-radius: 0px;
+}
+
 h3 {
   color: var(--color-secondary);
 }
