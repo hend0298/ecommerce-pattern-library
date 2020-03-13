@@ -23,6 +23,10 @@ patterns:
       title: "Product Info"
       description: |
         The product info section is used on the product's page to show the name, price and description of the item.
+    image:
+      title: "Image Section"
+      description: |
+        The product info section is used on the product's page to show the name, price and description of the item.
     cart:
       title: "Cart"
       description: |
