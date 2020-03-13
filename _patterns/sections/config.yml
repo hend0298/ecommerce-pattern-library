@@ -9,6 +9,13 @@ patterns:
         The product details list is to be used on the product page to display all the details and features of each product.
       padding: 0 2em
     text-section:
+      fields:
+        - name: heading
+          type: string
+          example: "About Us"
+        - name: text
+          type: string
+          example: "Hello hi hey"
       title: "Text Section"
       description: |
         The text section is used on the home page to place a chunk of text. It may sometimes be paired with a button that links to another page.
