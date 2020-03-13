@@ -24,6 +24,10 @@ patterns:
       description: |
         The product info section is used on the product's page to show the name, price and description of the item.
     image:
+      fields:
+        - name: image
+          type: string
+          example: "banner-photo.jpg"
       title: "Image Section"
       description: |
         The product info section is used on the product's page to show the name, price and description of the item.
