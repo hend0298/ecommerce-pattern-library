@@ -1,5 +1,7 @@
 # Pattern Library
 
+**Version 1.0.0**
+
 The pattern library is used to create patterns to help build a stationery website.
 
 ## Installation
