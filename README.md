@@ -2,7 +2,15 @@
 
 **Version 1.0.0**
 
-The pattern library is used to create patterns to help build a stationery website.
+The pattern library is used to create patterns to help build a stationery website. Each pattern is a piece of the website that can easily be copied and used to build the pages of the site.
+
+---
+
+## Contributors
+
+- Anna Hendry <hend0298@algonquinlive.com>
+
+---
 
 ## Installation
 
@@ -29,3 +37,5 @@ The pattern library is a Jekyll & Patternbot based application that requires a r
 ## License & copyright
 
 © 2020 Anna Hendry
+
+Licensed under the [MIT Licence](LICENSE).
