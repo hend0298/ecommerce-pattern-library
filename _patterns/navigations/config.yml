@@ -8,10 +8,18 @@ patterns:
     description: |
       The purchase nav bar will be used during the payment process to inform the user what step they are at in the process. It will also highlight the current page.
   previous-page:
+    fields:
+      - name: text
+        type: string
+        example: "Return to shipping"
     title: "Previous Page"
     description: |
       The previous page button will be used during the payment process to allow the user to go to the previous step.
   next-page:
+    fields:
+      - name: text
+        type: string
+        example: "Continue to shipping"
     title: "Next Page"
     description: |
       The next page button will be used during the payment process to allow the user to go to the next step.
