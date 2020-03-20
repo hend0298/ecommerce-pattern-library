@@ -4,10 +4,21 @@ description: |
 
 patterns:
   radio:
+    fields:
+      - name: heading
+        type: string
+        example: "Shipping Method"
+      - name: label
+        type: string
+        example: "Standard International Shipping $12"
     title: "Radio"
     description: |
       Radio buttons are to be used during the payment process to allow the user to choose between fixed options such as their preferred shipping method.
   form-field:
+    fields:
+      - name: label
+        type: string
+        example: "Full name"
     title: "Form Field"
     description: |
       Form fields are to be used for users to fill out their personal information during the payment process.
