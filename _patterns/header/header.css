@@ -1,8 +1,8 @@
-.link:hover {
+.icon:hover, .link:hover {
   color: var(--color-primary);
 }
 
-.link {
+.icon, .link {
   color: var(--color-secondary);
 }
 
