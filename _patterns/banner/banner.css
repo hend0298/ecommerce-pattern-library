@@ -1,4 +1,4 @@
-.banner .h1 {
+.banner .h1, p {
   color: var(--color-secondary);
   font-weight: normal;
 }
