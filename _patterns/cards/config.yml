@@ -14,10 +14,14 @@ patterns:
           source: "site.products[0]"
           type: Product
   category:
-    fields:
-      - name: text
-        type: string
-        example: "Calendars"
+      fields:
+        - name: heading
+          type: string
+          example: "Calendars"
+      fields:
+        - name: image
+          type: string
+          example: "calendar.jpg"
     title: "Category"
     description: |
       The category card will be used to show the different product categories. They will be used as links to each product category page.
