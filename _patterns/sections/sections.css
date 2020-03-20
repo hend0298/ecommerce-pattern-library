@@ -9,7 +9,7 @@
   border-radius: 0px;
 }
 
-h3 {
+.h3 {
   color: var(--color-secondary);
 }
 
@@ -22,25 +22,25 @@ h3 {
   border-bottom: 2px solid var(--color-primary);
 }
 
-h2 {
+.h2 {
   color: var(--color-primary);
 }
 
-table {
+.table {
   font-family: var(--font-secondary);
 }
 
-th {
+.th {
   color: var(--color-primary);
   font-weight: normal;
 }
 
-td {
+.td {
   color: var(--color-secondary);
   font-weight: normal;
 }
 
-td, th {
+.td, .th {
   border: none;
   vertical-align: middle;
 }
@@ -49,6 +49,6 @@ td, th {
   border-bottom: solid 1px var(--color-primary);
 }
 
-img {
+.img {
   border-radius: 25px;
 }
