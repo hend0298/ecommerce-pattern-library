@@ -21,6 +21,10 @@ patterns:
     description: |
       Checkboxes are to be used for the user to agree to a specific term such as saving their preferences for next time.
   drop-down:
+    fields:
+      - name: text
+        type: string
+        example: "Peach"
     title: "Drop Down"
     description: |
       Drop down menus are to allow the user to choose between different options such as colours of a product.
