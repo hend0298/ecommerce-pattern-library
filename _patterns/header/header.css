@@ -1,11 +1,11 @@
-i:hover, a:hover {
+.link:hover {
   color: var(--color-primary);
 }
 
-a, i {
+.link {
   color: var(--color-secondary);
 }
 
-.current a {
+.current .link {
   color: var(--color-primary);
 }
