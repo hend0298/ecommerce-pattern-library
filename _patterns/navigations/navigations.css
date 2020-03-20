@@ -13,6 +13,7 @@
 .next-page {
   background-color: var(--color-primary);
   color: #fff;
+  border: none;
 }
 
 .next-page:hover {
