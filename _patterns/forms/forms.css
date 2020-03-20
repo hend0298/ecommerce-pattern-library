@@ -1,4 +1,4 @@
-.form-field, .radio, .checkbox, #colour, label, input {
+.form-field, .radio, .checkbox, #colour, .title {
   font-family: var(--font-secondary);
 }
 
@@ -11,7 +11,7 @@ max-width: 15em;
   border: none;
 }
 
-legend {
+.legend {
   color: var(--color-primary);
   font-weight: normal;
 }
