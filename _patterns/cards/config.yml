@@ -13,15 +13,17 @@ patterns:
         data:
           source: "site.products[0]"
           type: Product
+      - name: image
+        type: string
+        example: "planner.jpg"
   category:
-      fields:
-        - name: heading
-          type: string
-          example: "Calendars"
-      fields:
-        - name: image
-          type: string
-          example: "calendar.jpg"
+    fields:
+      - name: heading
+        type: string
+        example: "Calendars"
+      - name: image
+        type: string
+        example: "calendar.jpg"
     title: "Category"
     description: |
       The category card will be used to show the different product categories. They will be used as links to each product category page.
