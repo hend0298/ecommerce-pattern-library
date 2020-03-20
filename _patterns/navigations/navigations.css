@@ -9,3 +9,13 @@
 .link:current {
   font-weight: bold;
 }
+
+.next-page {
+  background-color: var(--color-primary);
+  color: #fff;
+}
+
+.next-page:hover {
+  background-color: var(--color-secondary);
+  color: #fff;
+}
