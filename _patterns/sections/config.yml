@@ -15,7 +15,7 @@ patterns:
           example: "About Us"
         - name: text
           type: string
-          example: "Hello hi hey"
+          example: "Pen & Paper was founded in Ottawa, Ontario in 2020. Our team is passionate about design and knows how important it is to stay organized. With that being said, we decided to help the world stay organized while being in style at the same time! We put our heart and soul into every design we create and we hope you can tell."
       title: "Text Section"
       description: |
         The text section is used on the home page to place a chunk of text. It may sometimes be paired with a button that links to another page.
