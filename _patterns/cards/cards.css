@@ -19,22 +19,22 @@
   margin: 1em;
 }
 
-.category-card img {
+.category-card .img {
   border-radius: 50px;
   opacity: .5;
 }
 
-.category-card img:hover {
+.category-card .img:hover {
   border-radius: 50px;
   opacity: 0;
 }
 
-.category-card h2 {
+.category-card .h2 {
   position: absolute;
   color: var(--color-secondary);
 }
 
-.category-card:hover h2 {
+.category-card:hover .h2 {
   color: #fff;
 }
 
