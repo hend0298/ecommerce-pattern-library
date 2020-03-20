@@ -13,7 +13,7 @@ patterns:
         example: "/products/"
     title: "Basic"
     description: |
-      Default to using the basic button. It should always be used in front of light backgrounds.
+      Default to using the basic button.
     width: "12em"
   ghost:
     fields:
