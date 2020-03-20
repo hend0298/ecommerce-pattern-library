@@ -28,6 +28,12 @@ patterns:
       - name: text-2
         type: string
         example: "Pink"
+      - name: text-3
+        type: string
+        example: "Light Pink"
+      - name: text-4
+        type: string
+        example: "White"
     title: "Drop Down"
     description: |
       Drop down menus are to allow the user to choose between different options such as colours of a product.
