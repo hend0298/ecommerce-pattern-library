@@ -16,8 +16,24 @@
 
 .banner-content {
   position: absolute;
-  top: 5em;
+  top: 8em;
   right: 5em;
+}
+
+}
+
+@media only screen and (min-width: 60em) {
+
+.banner-content {
+  top: 11em;
+}
+
+}
+
+@media only screen and (min-width: 90em) {
+
+.banner-content {
+  top: 15em;
 }
 
 }
