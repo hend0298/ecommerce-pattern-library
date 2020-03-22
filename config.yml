@@ -24,9 +24,6 @@ patterns:
       - name: image
         type: string
         example: "calendar.jpg"
-      - name: url
-        type: url
-        example: "/products/"
     title: "Category"
     description: |
       The category card will be used to show the different product categories. They will be used as links to each product category page.
