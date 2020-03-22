@@ -8,8 +8,6 @@
   border-radius: 0;
 }
 
-@media only screen and (min-width: 38em) {
-
 .banner {
   position: relative;
 }
@@ -20,12 +18,28 @@
   right: 5em;
 }
 
+@media only screen and (min-width: 25em) {
+
+.banner-content {
+  position: absolute;
+  top: 10em;
+  right: 5em;
+}
+
+@media only screen and (min-width: 38em) {
+
+.banner-content {
+  position: absolute;
+  top: 14em;
+  right: 5em;
+}
+
 }
 
 @media only screen and (min-width: 60em) {
 
 .banner-content {
-  top: 11em;
+  top: 21em;
 }
 
 }
@@ -33,7 +47,7 @@
 @media only screen and (min-width: 90em) {
 
 .banner-content {
-  top: 15em;
+  top: 30em;
 }
 
 }
