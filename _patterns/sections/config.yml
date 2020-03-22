@@ -20,10 +20,6 @@ patterns:
       description: |
         The text section is used on the home page to place a chunk of text. It may sometimes be paired with a button that links to another page.
     product-info:
-      fields:
-        - name: text
-          type: string
-          example: "8.25" L x 6.75" W"
       title: "Product Info"
       description: |
         The product info section is used on the product's page to show the name, price and description of the item.
