@@ -2,7 +2,7 @@
 
 **Version 1.0.0**
 
-The pattern library is used to create patterns to help build a stationery website. Each pattern is a piece of the website that can easily be copied and used to build the pages of the site.
+The pattern library is used to create patterns to help build a stationery website. Each pattern is a piece of the website that can easily be copied and used to build the pages of the site. The purpose of this pattern library is to avoid having to copy the same code multiple times and to be able to hand it off to someone else who will easily be able to code the website.
 
 ---
 
@@ -20,6 +20,12 @@ The pattern library is a Jekyll & Patternbot based application, so it requires R
 
 1. Navigate to the correct folder in Terminal. Use GitHub Desktop’s `Repository > Open in Termal` command.
 2. Type the following command `bundle install`
+
+---
+
+## Links
+
+[Netlify](https://vigorous-khorana-0f543a.netlify.com)
 
 ---
 
