@@ -8,6 +8,10 @@
   border-color: var(--color-primary);
 }
 
+.product-image {
+  border-radius: 25px;
+}
+
 .product-card .paragraph {
   font-family: var(--font-secondary);
 }
