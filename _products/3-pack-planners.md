@@ -4,4 +4,11 @@ description: |
   A weekly planner to keep you on track every week.
 image: "3-pack-planners.jpg"
 price: $15
+details:
+  - Three weekly planners
+  - 8” L × 5” W
+  - Natural white text paper
+  - August 2019 - December 2020
+  - Weekly pages
+  - Soft Covered, saddle stitch binding
 ---
