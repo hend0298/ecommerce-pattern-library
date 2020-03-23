@@ -14,21 +14,19 @@
 
 .banner-content {
   position: absolute;
-  top: 8em;
-  right: 5em;
+  top: 14em;
 }
 
 @media only screen and (min-width: 25em) {
 
 .banner-content {
-  top: 10em;
-  right: 5em;
+  top: 17em;
 }
 
 @media only screen and (min-width: 38em) {
 
 .banner-content {
-  top: 14em;
+  top: 15em;
   right: 5em;
 }
 
@@ -37,7 +35,7 @@
 @media only screen and (min-width: 60em) {
 
 .banner-content {
-  top: 21em;
+  top: 11em;
 }
 
 }
@@ -45,7 +43,7 @@
 @media only screen and (min-width: 90em) {
 
 .banner-content {
-  top: 30em;
+  top: 17em;
 }
 
 }
