@@ -9,3 +9,12 @@
 .current .link {
   color: var(--color-primary);
 }
+
+
+@media only screen and (min-width: 60em) {
+
+  .icon {
+    float: right;
+  }
+
+}
