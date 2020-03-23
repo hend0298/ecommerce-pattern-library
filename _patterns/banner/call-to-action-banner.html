@@ -1,6 +1,9 @@
 <div class="banner">
   <div class="banner-image push">
-    <img src="/images/{{include.image}}" class="img-flex banner-image" alt="Banner photo with heading and button">
+    <picture>
+      <source media="(min-width: 60em)" srcset="large-banner.jpg">
+      <img src="small-banner.jpg" alt="A photo of two pencils and notebooks">
+    </picture>
   </div>
   <div class="banner-content pin-c">
     <h1 class="text-center push-1-2 h1">{{include.heading}}</h1>
