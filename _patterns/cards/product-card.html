@@ -2,5 +2,7 @@
   <img class="img-flex push-1-2 product-image" src="/images/{{include.data.image}}" alt="">
   <h3 class="push-1-4"><span class="border">{{include.data.title}}</span></h3>
   <p class="push-1-4 paragraph">{{include.data.price}}</p>
-  {% pattern buttons/basic text="Buy now" url=include.data.url %}
+  <div class="content-shrink">
+    {% pattern buttons/basic text="Buy now" url=include.data.url %}
+  </div>
 </div>
