@@ -8,11 +8,11 @@ colors:
   - "Pink"
   - "White"
   - "Grey"
-  details:
-    - 11” L × 10” W
-    - Natural white text paper
-    - August 2019 - December 2020
-    - Weekly & monthly pages
-    - Includes dividers and stickers
-    - Soft Covered spiral-bound
+details:
+  - 11” L × 10” W
+  - Natural white text paper
+  - August 2019 to December 2020
+  - Weekly & monthly pages
+  - Includes dividers and stickers
+  - Soft Covered spiral-bound
 ---
