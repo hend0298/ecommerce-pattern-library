@@ -4,10 +4,13 @@ layout: default
 
 {% pattern sections/product-info data=product %}
 <div class="grid gutter">
-  <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2 push">
-    <img src="{{page.image}}" alt="" class="img-flex">
+  <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2">
+    <a href="/products/">Back</a>
   </div>
-  <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2 push-1-4">
+  <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2 push">
+    <img src="{{page.image}}" alt="" class="img-flex product-image">
+  </div>
+  <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2 push-1-4 gutter">
     <h1 class="push-1-4">{{page.name}}</h1>
     <div class="border push">
     </div>
