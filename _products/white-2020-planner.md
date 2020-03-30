@@ -2,7 +2,7 @@
 name: "White 2020 Planner"
 description: |
   A white, spiral bound, monthly planner. It comes with dividers and stickers.
-image: "white-2020-planner.jpg"
+image: "/images/white-2020-planner.jpg"
 price: $15
 details:
   - 8.25” L × 6.75” W

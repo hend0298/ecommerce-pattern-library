@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+{% pattern sections/product-info data=product %}
+<div class="grid gutter">
+  <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2 push">
+    <img src="{{page.image}}" alt="" class="img-flex">
+  </div>
+  <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2 push-1-4">
+    <h1 class="push-1-4">{{page.name}}</h1>
+    <div class="border push">
+    </div>
+    <h2 class="push-1-2">{{page.price}}</h2>
+    <p class="push">{{page.description}}</p>
+    <div class="push">
+      {% pattern forms/quantity %}
+    </div>
+    {% pattern buttons/basic text="Add to cart" url="/checkout/" %}
+    <div class="push">
+      {% pattern sections/product-details %}
+    </div>
+  </div>
+</div>

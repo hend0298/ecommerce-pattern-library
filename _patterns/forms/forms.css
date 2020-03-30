@@ -2,6 +2,10 @@
   font-family: var(--font-secondary);
 }
 
+.quantity {
+  width: 5em;
+}
+
 .input, #colour {
 border-radius: 10px;
 max-width: 15em;

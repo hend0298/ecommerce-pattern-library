@@ -2,7 +2,7 @@
 name: "Weekly Planner"
 description: |
   A weekly planner to keep you on track every week.
-image: "weekly-planner.jpg"
+image: "/images/weekly-planner.jpg"
 price: $10
 details:
   - 4” L × 8” W
