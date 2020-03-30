@@ -1,8 +1,8 @@
-.icon:hover, .link:hover {
+.icons:hover, .link:hover {
   color: var(--color-primary);
 }
 
-.icon, .link {
+.icons, .link {
   color: var(--color-secondary);
 }
 
@@ -13,7 +13,7 @@
 
 @media only screen and (min-width: 60em) {
 
-  .icon {
+  .icons {
     float: right;
   }
 
