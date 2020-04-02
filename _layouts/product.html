@@ -19,6 +19,9 @@ layout: default
     <div class="push">
       {% pattern forms/quantity %}
     </div>
+    <div class="push">
+    {% pattern forms/drop-down heading="Colour" text="Select a colour" %}
+    </div>
     {% pattern buttons/basic text="Add to cart" url="/checkout/" %}
     <div class="push">
       {% pattern sections/product-details %}

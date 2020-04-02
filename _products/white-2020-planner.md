@@ -4,6 +4,8 @@ description: |
   A white, spiral bound, monthly planner. It comes with dividers and stickers.
 image: "/images/white-2020-planner.jpg"
 price: $15
+colors:
+  - "White"
 details:
   - 8.25” L × 6.75” W
   - Natural white text paper

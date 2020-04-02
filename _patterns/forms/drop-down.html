@@ -1,10 +1,8 @@
 <label for="colour" class="title label" required>{{include.heading}}</label>
 <select id="colour" name="colour">
-  <option value="">{{include.text}}</option>
-  <option>{{include.text-1}}</option>
-  <option>{{include.text-2}}</option>
-  <option>{{include.text-3}}</option>
-  <option>{{include.text-4}}</option>
+  {% for text in page.colors %}
+    <option value="">{{text}}</option>
+  {% endfor %}
 </select>
 
 <script src="https://thomasjbradley.github.io/form-validation-helper/index.js"></script>
