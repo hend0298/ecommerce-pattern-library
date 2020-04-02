@@ -1,8 +1,10 @@
 <div class="product-card unit-content-distribute content-fill">
-  <img class="img-flex push-1-2 product-image" src="{{include.data.image}}" alt="">
-  <h3 class="push-1-4"><span class="border">{{include.data.title}}</span></h3>
-  <p class="push-1-4 paragraph content-fill">{{include.data.price}}</p>
-  <div class="content-shrink">
-    {% pattern buttons/basic text="Buy now" url=include.data.url %}
-  </div>
+  <a href="{{include.data.url}}">
+    <img class="img-flex push-1-2 product-image" src="{{include.data.image}}" alt="">
+    <h3 class="push-1-4"><span class="border">{{include.data.title}}</span></h3>
+    <p class="push-1-4 paragraph content-fill">{{include.data.price}}</p>
+    <div class="content-shrink">
+      {% pattern buttons/basic text="Buy now" url=include.data.url %}
+    </div>
+  </a>
 </div>
