@@ -14,7 +14,7 @@ html {
 h1 {
   font-family: var(--font-secondary);
   color: var(--color-primary);
-  font-weight: normal;
+  font-weight: bold;
 }
 
 h2, h5, h6 {

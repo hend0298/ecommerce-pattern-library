@@ -2,7 +2,8 @@
   color: var(--color-primary);
   font-family: var(--font-secondary);
   font-weight: bold;
-  border-bottom: 2px solid var(--color-primary);
+  border-bottom: solid 2px var(--color-primary);
+
 }
 
 .list {
@@ -48,10 +49,6 @@
 .td, .th {
   border: none;
   vertical-align: middle;
-}
-
-.border {
-  border-bottom: solid 1px var(--color-primary);
 }
 
 .img {

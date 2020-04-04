@@ -3,7 +3,7 @@
   border-radius: 40px;
 }
 
-.border {
+.border-cards {
   border-bottom: 2px solid;
   border-color: var(--color-primary);
   font-weight: normal;

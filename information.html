@@ -1,0 +1,37 @@
+---
+layout: default
+---
+<div class="gutter">
+  <h1><span class="border push">Information</span></h1>
+
+  {% pattern forms/form-field label="First name" %}
+
+  {% pattern forms/form-field label="Last name" %}
+
+  {% pattern forms/form-field label="Address" %}
+
+  {% pattern forms/form-field label="Apartment, suite, etc. (optional)" %}
+
+  {% pattern forms/form-field label="City" %}
+
+  {% pattern forms/form-field label="Country/Region" %}
+
+  {% pattern forms/form-field label="Province" %}
+
+  {% pattern forms/form-field label="Postal Code" %}
+
+  <div class="push">
+  {% pattern forms/form-field label="Phone (optional)" %}
+  </div>
+
+  <div class="push">
+  {% pattern forms/checkbox text="Save this information for next time" %}
+  </div>
+
+  <div class="push-1-4 center-content">
+  {% pattern buttons/basic text="Continue to shipping" url="/shipping/" %}
+  </div>
+  <div class="text-center push">
+    <a href="/cart-page/" class="link micro"><i class="icon i-18"><svg><use xlink:href="/images/icons.svg#back-icon"></use></svg></i>Return to cart</a>
+  </div>
+</div>
