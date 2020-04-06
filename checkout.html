@@ -1,32 +1,34 @@
 ---
 layout: default
 ---
-<div class="gutter">
-<h1><span class="border push">Payment</span></h1>
 <div>
-  <h3 class="push-0">Contact</h3>
-  <p class="p push-1-2">name@email.com</p>
-  <h3 class="push-0">Ship to</h3>
-  <p class="p push-1-2">123 Street Name, A1B 2C3</p>
-  <h3 class="push-0">Shipping Method</h3>
-  <p class="p">Standard shipping</p>
-</div>
-<div>
-  <h3 class="push-0">Payment Information</h3>
-  {% pattern forms/form-field label="Card number" %}
-  {% pattern forms/form-field label="Name on card" %}
-  {% pattern forms/form-field label="Expiration date (MM/YY)" %}
-  {% pattern forms/form-field label="Security code" %}
-</div>
-<div>
-  {% pattern forms/radio heading="Billing Address" label="Same as shipping address" %}
-  {% pattern forms/radio label="Use a different billing address" %}
-</div>
-</div>
-<div class="push-1-4 center-content">
-{% pattern buttons/basic text="Complete Order" url="/confirmation/" %}
-</div>
-{% pattern sections/order-summary  %}
-<div class="text-center push">
-<a href="/cart-page/" class="link micro"><i class="icon i-18"><svg><use xlink:href="/images/icons.svg#back-icon"></use></svg></i>Return to shipping</a>
+  <h1 class="gutter"><span class="border push">Payment</span></h1>
+  <div class="grid">
+    <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-3 gutter">
+      <h3 class="push-0">Contact</h3>
+      <p class="p push-1-2">name@email.com</p>
+      <h3 class="push-0">Ship to</h3>
+      <p class="p push-1-2">123 Street Name, A1B 2C3</p>
+      <h3 class="push-0">Shipping Method</h3>
+      <p class="p">Standard shipping</p>
+      <h3 class="push-0">Payment Information</h3>
+      {% pattern forms/form-field label="Card number" %}
+      {% pattern forms/form-field label="Name on card" %}
+      {% pattern forms/form-field label="Expiration date (MM/YY)" %}
+      {% pattern forms/form-field label="Security code" %}
+      {% pattern forms/radio heading="Billing Address" label="Same as shipping address" %}
+      {% pattern forms/radio label="Use a different billing address" %}
+    </div>
+    <div class="unit xs-1 s-1 m-1 l-1-2 xl-2-3 gutter">
+      {% pattern sections/order-summary heading="Small 2020 Planner" price="$15" image="planner.jpg" %}
+    </div>
+  </div>
+
+  <div class="push-1-4 center-content">
+    {% pattern buttons/basic text="Complete Order" url="/confirmation/" %}
+  </div>
+
+  <div class="text-center push">
+    <a href="/cart-page/" class="link micro"><i class="icon i-18"><svg><use xlink:href="/images/icons.svg#back-icon"></use></svg></i>Return to shipping</a>
+  </div>
 </div>

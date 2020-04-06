@@ -36,9 +36,15 @@ patterns:
       description: |
         The cart section is used on the product's page to show the name, photo and price of the items that the user currently has in their cart. It also allows them to remove any items from their cart with the remove button.
       fields:
-        - name: data
-          data:
-            source: "site.products[0]"
+        - name: heading
+          type: string
+          example: "Small 2020 Planner"
+        - name: price
+          type: string
+          example: $15
+        - name: image
+          example: "planner.jpg"
+
     order-summary:
       title: "Order Summary"
       description: |

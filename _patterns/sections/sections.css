@@ -6,6 +6,10 @@
 
 }
 
+.order-summary {
+  max-width: 30em;
+}
+
 .pink {
   color: var(--color-primary);
 }
