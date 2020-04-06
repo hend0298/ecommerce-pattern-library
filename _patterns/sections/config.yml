@@ -39,3 +39,11 @@ patterns:
         - name: data
           data:
             source: "site.products[0]"
+    order-summary:
+      title: "Order Summary"
+      description: |
+        The order summary section is used on the checkout page to show the user what they are purchasing. Its purpose is to summarizes their purchases so they can easily view everything they're buying.
+      fields:
+        - name: data
+          data:
+            source: "site.products[0]"
