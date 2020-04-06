@@ -44,6 +44,11 @@
   font-weight: normal;
 }
 
+.td {
+  color: var(--color-secondary);
+  font-weight: normal;
+}
+
 .td, .th {
   border: none;
   vertical-align: middle;
