@@ -50,7 +50,7 @@ tr {
   font-weight: normal;
 }
 
-.td, .th, .tr {
+.td, .th {
   border: none;
   vertical-align: middle;
 }
