@@ -45,8 +45,11 @@
 }
 
 .td {
-  color: var(--color-secondary);
   font-weight: normal;
+}
+
+.td-black {
+  color: var(--color-secondary);
 }
 
 .td, .th {
