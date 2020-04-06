@@ -6,6 +6,10 @@
 
 }
 
+.pink {
+  color: var(--color-primary);
+}
+
 .list {
   padding-left: 15px;
 }
