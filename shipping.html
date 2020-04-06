@@ -4,8 +4,22 @@ layout: default
 
 <div class="gutter">
   <h1><span class="border push">Shipping</span></h1>
-
-
-
-
+  <div class="grid push">
+    <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2">
+      <h3 class="push-0">Contact</h3>
+      <p class="p push-1-2">name@email.com</p>
+      <h3 class="push-0">Ship to</h3>
+      <p class="p">123 Street Name, A1B 2C3</p>
+    </div>
+    <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2">
+      {% pattern forms/radio heading="Shipping Method" label="Standard International Shipping $12" %}
+      {% pattern forms/radio label="Express Shipping $20" %}
+    </div>
+  </div>
+  <div class="push-1-4 center-content">
+  {% pattern buttons/basic text="Continue to checkout" url="/checkout/" %}
+  </div>
+  <div class="text-center push">
+    <a href="/cart-page/" class="link micro"><i class="icon i-18"><svg><use xlink:href="/images/icons.svg#back-icon"></use></svg></i>Return to information</a>
+  </div>
 </div>
