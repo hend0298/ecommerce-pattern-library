@@ -6,6 +6,11 @@
 
 }
 
+.bold {
+  font-weight: bold;
+  border: none;
+}
+
 .order-summary {
   max-width: 30em;
 }
