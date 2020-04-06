@@ -44,6 +44,11 @@ patterns:
       description: |
         The order summary section is used on the checkout page to show the user what they are purchasing. Its purpose is to summarizes their purchases so they can easily view everything they're buying.
       fields:
-        - name: data
-          data:
-            source: "site.products[0]"
+        - name: heading
+          type: string
+          example: "Small 2020 Planner"
+        - name: price
+          type: string
+          example: $15
+        - name: image
+          example: "planner.jpg"
