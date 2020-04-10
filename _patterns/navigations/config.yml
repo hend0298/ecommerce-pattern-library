@@ -29,17 +29,3 @@ patterns:
     title: "Next Page"
     description: |
       The next page button will be used during the payment process to allow the user to go to the next step.
-  next-and-return:
-    fields:
-      - name: text
-        type: string
-        example: "Continue to shipping"
-      - name: text.2
-        type: string
-        example: "Continue to shipping"
-      - name: url
-        type: url
-        example: "/checkout/"
-    title: "Next and Return"
-    description: |
-      The next page button will be used during the payment process to allow the user to go to the next step.
