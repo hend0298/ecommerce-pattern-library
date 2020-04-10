@@ -27,11 +27,8 @@ layout: default
   <div class="push">
   {% pattern forms/checkbox text="Save this information for next time" %}
   </div>
-
-  <div class="push-1-4 center-content">
-  {% pattern buttons/basic text="Continue to shipping" url="/shipping/" %}
-  </div>
-  <div class="text-center push">
-    <a href="/cart-page/" class="link micro"><i class="icon i-18"><svg><use xlink:href="/images/icons.svg#back-icon"></use></svg></i>Return to cart</a>
+<div class="text-center">
+{% pattern navigations/next-and-return text="Continue to shipping" url="/checkout/" %}
+</div>
   </div>
 </div>
