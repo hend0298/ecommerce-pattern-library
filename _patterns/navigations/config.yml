@@ -12,6 +12,9 @@ patterns:
       - name: text
         type: string
         example: "Return to shipping"
+      - name: url
+        type: url
+        example: "/information/"
     title: "Previous Page"
     description: |
       The previous page button will be used during the payment process to allow the user to go to the previous step.
@@ -20,6 +23,20 @@ patterns:
       - name: text
         type: string
         example: "Continue to shipping"
+      - name: url
+        type: url
+        example: "/checkout/"
     title: "Next Page"
+    description: |
+      The next page button will be used during the payment process to allow the user to go to the next step.
+  next-and-return:
+    fields:
+      - name: text
+        type: string
+        example: "Continue to shipping"
+      - name: url
+        type: url
+        example: "/checkout/"
+    title: "Next and Return"
     description: |
       The next page button will be used during the payment process to allow the user to go to the next step.
