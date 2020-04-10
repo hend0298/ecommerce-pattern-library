@@ -10,7 +10,7 @@
   font-weight: bold;
 }
 
-.next-page {
+.next-page, .previous-page {
   background-color: var(--color-primary-light);
   color: #fff;
   border: none;
@@ -24,7 +24,7 @@
 
 @media only screen and (min-width: 60em) {
 
-  .next-page {
+  .next-page, .previous-page {
     float: right;
   }
 
