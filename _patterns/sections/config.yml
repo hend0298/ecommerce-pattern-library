@@ -56,8 +56,5 @@ patterns:
         - name: price
           type: string
           example: $15
-        - name: total.price
-          type: string
-          example: $30
         - name: image
           example: "planner.jpg"
