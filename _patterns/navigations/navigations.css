@@ -11,12 +11,22 @@
 }
 
 .next-page {
-  background-color: var(--color-primary);
+  background-color: var(--color-primary-light);
   color: #fff;
   border: none;
+  text-align: center;
 }
 
 .next-page:hover {
   background-color: var(--color-secondary);
   color: #fff;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .next-page {
+    text-align: right;
+  }
+
+
 }
