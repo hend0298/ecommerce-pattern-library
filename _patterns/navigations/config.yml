@@ -34,6 +34,9 @@ patterns:
       - name: text
         type: string
         example: "Continue to shipping"
+      - name: text.2
+        type: string
+        example: "Continue to shipping"
       - name: url
         type: url
         example: "/checkout/"
