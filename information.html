@@ -29,7 +29,7 @@ layout: default
   </div>
   <div class="grid text-center">
     <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2 push-1-2">
-    <a href="/cart-page/" class="link"><i class="icon i-18"><svg><use xlink:href="/images/icons.svg#back-icon"></use></svg></i>Return to cart</a>
+      {% pattern navigations/previous-page text="Return to cart" url="/cart-page/" %}
     </div>
     <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2 push-1-2">
       {% pattern navigations/next-page text="Continue to shipping" url="/shipping/" %}
