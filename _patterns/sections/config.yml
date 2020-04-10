@@ -56,5 +56,14 @@ patterns:
         - name: price
           type: string
           example: $15
+        - name: price.2
+          type: string
+          example: $15
+        - name: price.3
+          type: string
+          example: $15
+        - name: price.4
+          type: string
+          example: $15
         - name: image
           example: "planner.jpg"
