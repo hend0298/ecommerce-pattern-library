@@ -54,7 +54,7 @@ patterns:
     order-summary:
       title: "Order Summary"
       description: |
-        The order summary section is used on the checkout page to show the user what they are purchasing. Its purpose is to summarizes their purchases so they can easily view everything they're buying.
+        The order summary section is used on the checkout page to show the user what they are purchasing. Its purpose is to summarize their purchases so they can easily view everything they're buying.
       fields:
         - name: heading
           type: string
