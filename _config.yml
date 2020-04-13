@@ -5,7 +5,7 @@ patternbot:
   layouts:
     default: |
       The default layout should be used for every page, it includes the website's primary header and footer.
-    products: |
+    product: |
       The products layout is used to display the list of products available.
   title: "Pen and Paper"
   description: |
@@ -17,11 +17,11 @@ patternbot:
     typefaces.primary: |
       Ibarra Real Nova was selected because it is a simple, serif font that's easy to read. It is to be mainly used for body copy.
     typefaces.secondary: |
-      Montserrat was selected because it's a classy, sans-serif font who thinner weight contrasts well with the primary font. It is to be used for headings, buttons, banners, etc.
+      Montserrat was selected because it's a classy, sans-serif font who's thinner weight contrasts well with the primary font. It is to be used for headings, buttons and banners.
     colors.primary: |
       The primary colours are dusty roses which give the website a chic, mature look. They should be used for most headings and as a highlight colour.
     colors.secondary: |
-      The secondary colour is a charcoal grey that adds contrast to the site and should be used for body copy and certain headings.
+      The secondary colour is a charcoal grey that adds contrast to the site and should be used for body copy, a hover state for buttons and certain headings.
 
 collections:
   products:
