@@ -1,6 +1,6 @@
 title: "Sections"
 description: |
-  Forms should be used for the user to purchase products on the website.
+  Different sections are created to give users information on different things such as a product or the company. They are used all throughout the website.
 
 patterns:
     product-details:
