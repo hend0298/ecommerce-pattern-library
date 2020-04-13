@@ -6,11 +6,13 @@ layout: default
 {% pattern banner/call-to-action-banner button_text="Buy now" button_url="#" heading="Stock up on stationery!" text="Buy in bulk and save today. Save up to 25% on any product!" %}
 
 <div class="grid push">
-  <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2">
-    {% pattern cards/product-card data=Product image="planner.jpg" %}
+  <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2 gutter push">
+    {% assign product=site.products[3] %}
+    {% pattern cards/product-card data=product %}
   </div>
-  <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2">
-    {% pattern cards/product-card data=Product image="planner.jpg" %}
+  <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2 gutter">
+    {% assign product=site.products[2] %}
+    {% pattern cards/product-card data=product %}
   </div>
 </div>
 <div class="gutter max-length push-2">
