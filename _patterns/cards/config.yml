@@ -1,6 +1,6 @@
 title: "Cards"
 description: |
-  Cards should be used as links to other pages on the site.
+  Cards should be used to showcase something, for example, a product. They are also used as links to other pages on the site.
 
 patterns:
   product-card:

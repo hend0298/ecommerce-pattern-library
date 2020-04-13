@@ -21,7 +21,7 @@ patterns:
         example: "Full name"
     title: "Form Field"
     description: |
-      Form fields are to be used for users to fill out their personal information during the payment process.
+      Form fields are to be used for users to fill something out such as their personal information during the payment process.
   checkbox:
     fields:
       - name: text

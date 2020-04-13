@@ -3,10 +3,6 @@ description: |
   Navigations should be used as main links to other pages on the site and to tell the user what page they are currently on. It will be found at the top of every page for easy access.
 
 patterns:
-  purchase-nav:
-    title: "Purchase Nav"
-    description: |
-      The purchase nav bar will be used during the payment process to inform the user what step they are at in the process. It will also highlight the current page.
   previous-page:
     fields:
       - name: text
