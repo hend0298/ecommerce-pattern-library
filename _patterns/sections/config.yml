@@ -18,7 +18,7 @@ patterns:
           example: "Pen & Paper was founded in Ottawa, Ontario in 2020. Our team is passionate about design and knows how important it is to stay organized. With that being said, we decided to help the world stay organized while being in style at the same time! We put our heart and soul into every design we create and we hope you can tell."
       title: "Text Section"
       description: |
-        The text section is used on the home page to place a chunk of text. It may sometimes be paired with a button that links to another page.
+        The text section is used anywhere that needs a chunk of text. It's used to give the user more in depth information about something such as the company's background. It may sometimes be paired with a button that links to another page.
     product-info:
       title: "Product Info"
       description: |
@@ -30,11 +30,11 @@ patterns:
           example: "sectional-banner-photo.jpg"
       title: "Image Section"
       description: |
-        The product info section is used on the product's page to show the name, price and description of the item.
+        The image section is used whenever an image needs to be placed without any text or buttons on top of it. It could be used to divide sections on a page.
     cart:
       title: "Cart"
       description: |
-        The cart section is used on the product's page to show the name, photo and price of the items that the user currently has in their cart. It also allows them to remove any items from their cart with the remove button.
+        The cart section is used on the cart page to show the name, photo and price of the items that the user currently has in their cart. It also allows users to see their total and to remove any items from their cart.
       fields:
         - name: heading
           type: string
