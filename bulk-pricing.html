@@ -3,14 +3,15 @@ layout: default
 ---
 <h2 class="text-center">Buy now and save today!!!</h2>
 
-{% pattern banner/call-to-action-banner button_text="Buy now" button_url="/products/" heading="Stock up on stationery!" text="Buy in bulk and save today. Save up to 25% on any product!" %}
+{% pattern banner/call-to-action-banner button_text="Buy now" button_url="#" heading="Stock up on stationery!" text="Buy in bulk and save today. Save up to 25% on any product!" %}
 
 <div class="grid push">
-  {% for product in site.products %}
-    <div class="unit [ xs-1 s-1 m-1 l-1-2 xl-1-2 ] gutter unit-content-distribute">
-      {% pattern cards/product-card data=product %}
-    </div>
-  {% endfor %}
+  <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2">
+    {% pattern cards/product-card data=Product image="planner.jpg" %}
+  </div>
+  <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2">
+    {% pattern cards/product-card data=Product image="planner.jpg" %}
+  </div>
 </div>
 <div class="gutter max-length push-2">
   <table>
@@ -55,5 +56,5 @@ layout: default
   <div class="center-content">
     {% pattern forms/form-field label="" %}
   </div>
-  {% pattern buttons/basic text="Sign up" url="//" %}
+  {% pattern buttons/basic text="Sign up" url="#" %}
 </div>
